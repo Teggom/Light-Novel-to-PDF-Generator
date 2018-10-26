@@ -16,8 +16,10 @@ This program will find almost every novel hosted on NovelPlanet, and gather that
 	It does this by running though and gathering all of the URLs for each novel first, then going through and actually gathering the data, then converting the data into a PDF file. 
 	Should a series not have specific chapters already preset, as is the case with webnovels, it will compile several of them together into a 300-400 page book. 
 
-Note: This program could stand to be cleaned up and made faster, as it is quite slow. My implementation of regex could be sped up and dramatically increase the current 4+ hour runtime to much much less. 
-
-This program generates around 11,000 Books!
-
-	
+Note: 
+	This program could stand to be cleaned up and made faster, as it is quite slow. My implementation of regex could be sped up and dramatically increase the current 4+ hour runtime to much much less. 
+	This program generates around 11,000 Books!
+		A random sample of what it does has been included			
+	Improvement would be including any provided pictures in some way, keeping text markdown and region specific characters.
+	Being able to specify font
+	There are still some bugs :(
